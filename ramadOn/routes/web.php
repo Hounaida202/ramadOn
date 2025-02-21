@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
 
-
+////////////////////////////////////////////////////
 
 Route::get('/dash', [PublicationController::class, 'show'])->name('publishing');
 Route::post('/pub/ajoute', [PublicationController::class, 'save']);

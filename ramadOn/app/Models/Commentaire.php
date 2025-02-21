@@ -9,7 +9,7 @@ use App\Models\Publication;
 class Commentaire extends Model 
 {
     use HasFactory;
-
+//
     protected $table = 'commentaire'; 
     protected $fillable = ['contenu', 'publication_id'];
 public function publication()
